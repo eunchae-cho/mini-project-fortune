@@ -32,7 +32,8 @@ public class EmploymentDetailCommand implements Command {
       
 
     } catch (Exception e) {
-      out.printf("작업 처리 중 오류 발생! - %s\n", e.getMessage());
+      out.printf("작업 처리 중 오류 발생!\n");
+      e.printStackTrace();
     }
   }
 
