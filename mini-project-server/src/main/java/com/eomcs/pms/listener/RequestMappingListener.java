@@ -38,7 +38,7 @@ public class RequestMappingListener implements ApplicationContextListener {
   public void contextInitialized(Map<String,Object> context) {
     // 옵저버가 작업한 결과를 맵에서 꺼낸다.
     List<Character> characterList = (List<Character>) context.get("characterList");
-    List<Employment> employmentList =  (List<Employment>) context.get("employmentList");
+    List<Employment> employmentList =   (List<Employment>) context.get("employmentList");
     List<Money> moneyList = (List<Money>) context.get("moneyList");
     List<Love> loveList = (List<Love>) context.get("loveList");
    

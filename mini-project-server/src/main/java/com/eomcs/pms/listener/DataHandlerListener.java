@@ -39,9 +39,9 @@ public class DataHandlerListener implements ApplicationContextListener {
 		loadData(loveList, loveFile, Love[].class);
 
 		context.put("charaterList", charaterList);
-		context.put("employmentList", employmentFile);
-		context.put("moneyList", moneyFile);
-		context.put("loveList", loveFile);
+		context.put("employmentList", employmentList);
+		context.put("moneyList", moneyList);
+		context.put("loveList", loveList);
 	}
 
 	@Override
