@@ -22,7 +22,7 @@ public class ClientApp {
     port = Integer.parseInt(args[1]);
 
     while (true) {
-      System.out.println("   ┌-----------------------------------┐");
+      System.out.println("\n ┌-----------------------------------┐");
       System.out.println("\n         # 운세시스템사용방법 #\n");
       System.out.println("          * 운세보기 : /fortune\n");
       System.out.println("          * 운세상담 : /chatfortune\n");
@@ -37,7 +37,7 @@ public class ClientApp {
       if (input.equalsIgnoreCase("stop"))
         break;
     }
-    System.out.println("안녕!");
+    System.out.println("Bye :)");
 
 
   }
