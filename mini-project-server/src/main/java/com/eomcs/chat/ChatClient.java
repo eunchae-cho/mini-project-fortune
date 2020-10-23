@@ -43,7 +43,7 @@ public class ChatClient {
       }finally {
           try {
               if(out != null) {
-                out.close();
+              //  out.close();
               }
               if(in != null) {
                   in.close();
